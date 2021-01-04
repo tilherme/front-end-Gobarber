@@ -36,26 +36,29 @@ export const Content = styled.div`
                color:${shade(0.2,"#F4ede8")}
            
 
-          }
+         }
       }
     }
+
+
     > a {
-        color:#F4ede8;
+        color:#ff9000;
         display:block;
-        margin-top:24px;
+       
         text-decoration:none;
-         transition: color 0.2s;
+        transition: color 0.2s;
 
          display: flex;
          align-items:center;
-         &:hover {
-            color:${shade(0.2, '#f4ede8')}
-        }
-    }
+     
+    
     svg {
         margin-right: 16px;
     }
-  
+    &:hover {
+            color:${shade(0.2, '#FF9000')}
+        }
+    }
 `
 export const Background = styled.div`
     flex:1;
